@@ -1,6 +1,6 @@
-import getDeviceInfo from '../index';
+import getDeviceDetails from '../index';
 test('Dummy UA', () => {
-    const dev = getDeviceInfo();
+    const dev = getDeviceDetails();
     expect(dev).toStrictEqual({
         "browser": { "engine": "WebKit 537.36", "name": "WebKit", "vendor": "Apple Computer, Inc.", "version": "537.36" }, "deviceName": "Windows Desktop", "hardware": {
             "cpu": { "architecture": "Unknown", "cores": 4, "name": "", "type": "Unknown" }, "gpu": {

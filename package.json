@@ -1,5 +1,5 @@
 {
-  "name": "device-info",
+  "name": "device-details",
   "version": "1.0.0",
   "description": "Get device information from browser",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sprtkd/device-info.git"
+    "url": "git+https://github.com/sprtkd/device-details.git"
   },
   "keywords": [
     "device",
@@ -32,9 +32,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sprtkd/device-info/issues"
+    "url": "https://github.com/sprtkd/device-details/issues"
   },
-  "homepage": "https://github.com/sprtkd/device-info#readme",
+  "homepage": "https://github.com/sprtkd/device-details#readme",
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "@types/ua-parser-js": "^0.7.35",
