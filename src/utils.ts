@@ -56,10 +56,10 @@ function getOsVendor(browserDetails: UAParser.IResult, fallback: string) {
         'android': 'Google',
 
     };
-    let osVendor = undefined;
+    let osVendor;
     if (browserDetails.os.name) {
         const osname = browserDetails.os.name;
-        Object.entries(osToVendorMap).forEach(function ([key, value]) {
+        Object.entries(osToVendorMap).forEach(([key, value]) => {
             if (osname.toLowerCase().includes(key)) {
                 osVendor = value;
             }
@@ -112,7 +112,7 @@ function getOsType(browserDetails: UAParser.IResult, fallback: string) {
 }
 
 function getGPU(canvas: HTMLCanvasElement, fallback: string) {
-    var gl: any;
+    let gl: any;
     let gpuName;
     try {
         gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
@@ -120,7 +120,7 @@ function getGPU(canvas: HTMLCanvasElement, fallback: string) {
         gpuName = undefined;
     }
     if (gl) {
-        let gpu: string = gl.getParameter(gl.getExtension('WEBGL_debug_renderer_info').UNMASKED_RENDERER_WEBGL);
+        const gpu: string = gl.getParameter(gl.getExtension('WEBGL_debug_renderer_info').UNMASKED_RENDERER_WEBGL);
         gpuName = parseGpuInfo(gpu);
     }
     return {

@@ -30,7 +30,7 @@
   "files": [
     "lib/**/*"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sprtkd/device-details/issues"
   },

@@ -1,3 +1,4 @@
+
 # device-details
 
 ![GitHub](https://img.shields.io/github/license/sprtkd/device-details)
@@ -7,12 +8,15 @@
 ![Stars](https://img.shields.io/github/stars/sprtkd/device-details?style=social)
 
 
-Get device details directly from browser.
+# Get device details directly from browser.  
 device-details uses already robust [UAParser.js](https://www.npmjs.com/package/ua-parser-js)
 
 ## No need of installers for most common device details
 
-device-details uses the Navigator API to get device information right from **browser!**
+###  '**device-details**' uses the Navigator API to get device information right from **browser!**
+
+# Demo
+## [Check out our live demo](https://frontarm.com/demoboard/?id=80ab32ff-992b-4f4d-ac33-dc644f57c832)
 
 # Information Available
 
