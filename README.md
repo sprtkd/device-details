@@ -1,8 +1,11 @@
 # device-details
+
 ![GitHub](https://img.shields.io/github/license/sprtkd/device-details)
-https://img.shields.io/github/issues/sprtkd/device-details
-https://img.shields.io/github/followers/sprtkd?style=social
-https://img.shields.io/github/stars/sprtkd/device-details?style=social
+![Issues](https://img.shields.io/github/issues/sprtkd/device-details)
+![npm](https://img.shields.io/npm/v/device-details)
+![Followers](https://img.shields.io/github/followers/sprtkd?style=social)
+![Stars](https://img.shields.io/github/stars/sprtkd/device-details?style=social)
+
 
 Get device details directly from browser.
 device-details uses already robust [UAParser.js](https://www.npmjs.com/package/ua-parser-js)
